@@ -25,7 +25,7 @@ export default async function search(req, res) {
     // client.end;
     console.log("hi")
         const {data, error} = await supabase
-            .from('Bank')
+            .from('bankdetail')
             .select()
 .or(`branch.ilike.%${req.query.q.toLowerCase()}%,city.ilike.%${req.query.q.toLowerCase()}%,district.ilike.%${req.query.q.toLowerCase()}%,state.ilike.%${req.query.q.toLowerCase()}%`)
             .order('ifsc',{ascending:true})
