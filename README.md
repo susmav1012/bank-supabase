@@ -1,4 +1,4 @@
-# bank-supabase
+# backend-bank-detail-fetching
 Problem statement: To create a REST service that can fetch bank details, using the data given in the API’s query parameters. 
 Using the data available in the repository in the backend DB.
 
@@ -41,7 +41,7 @@ http://localhost:3000/bankdetail/search?q=Mumbai&limit=2&offset=1
 ![image](https://user-images.githubusercontent.com/106637847/221741492-1ae3fa86-b35a-4d3b-987e-6ef0368794e4.png)
 
 https://bank-supabase.vercel.app/api/search?q=Mumbai&limit=2&offset=1
-![image](https://user-images.githubusercontent.com/106637847/221764505-5b5508d9-9a01-415f-b22c-c4df586a174e.png)
+![image](https://user-images.githubusercontent.com/106637847/221775725-1d815dec-f9ea-43f2-916f-7c9893d1ff46.png)
 
 
 Case 2 output:
@@ -49,15 +49,15 @@ Case 2 output:
 http://localhost:3000/bankdetail/branch?q=LONI&limit=1&offset=0
 ![image](https://user-images.githubusercontent.com/106637847/221741689-84d59fd5-f92f-41df-bf1e-ebbf5d5c6270.png)
 
-https://bank-supabase-l6qd-k1kdoleew-susmav1012.vercel.app/api/branch?q=LONI&limit=1&offset=0
-![image](https://user-images.githubusercontent.com/106637847/221763672-a67e67ec-9a34-4efe-839a-ec1f15b9fd66.png)
+https://bank-supabase.vercel.app/api/branch?q=LONI&limit=1&offset=0
+![image](https://user-images.githubusercontent.com/106637847/221776002-c3874b1d-a307-4198-870e-46aa571ddcd6.png)
 
 
 http://localhost:3000/bankdetail/branch?q=LONI&limit=1&offset=1
 ![image](https://user-images.githubusercontent.com/106637847/221741618-77076ec0-bf92-44eb-aeeb-65da8311048b.png)
 
-https://bank-supabase-l6qd-k1kdoleew-susmav1012.vercel.app/api/branch?q=LONI&limit=1&offset=1
-![image](https://user-images.githubusercontent.com/106637847/221764012-da147469-5859-4039-9489-e68a3e2953d5.png)
+https://bank-supabase.vercel.app/api/branch?q=LONI&limit=1&offset=1
+![image](https://user-images.githubusercontent.com/106637847/221776192-4fd5b90f-c485-40e6-95d6-3a04c2e77f5b.png)
 
 
 
